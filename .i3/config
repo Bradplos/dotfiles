@@ -157,6 +157,9 @@ exec emacs
 # launchs a terminal
 bindsym Control+Return exec rxvt
 
+# launch emacs
+bindsym $mod+E exec emacs
+
 # launch firefox
 bindsym $mod+W exec firefox
 
@@ -228,4 +231,4 @@ assign [class="Firefox$"] $ws2
 assign [class="URxvt"] $ws3
 
 # assigns emacs to 'emacs' workspace
-assign [class="emacs$"] $ws4
+assign [class="emacs24"] $ws4
